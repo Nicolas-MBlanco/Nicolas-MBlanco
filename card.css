@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.card{
+    padding:5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card     h5{
+    text-align: center ;
+}
+.card p{
+    text-align: justify;
+}
+.card btn{
+    align-self: center;
+}
